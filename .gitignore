@@ -1,0 +1,11 @@
+node_modules/
+build/
+.image-generator-mcp-farizi/
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
+/public/*
+!/public/README.md
+.vscode/

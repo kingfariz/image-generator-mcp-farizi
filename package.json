@@ -1,0 +1,33 @@
+{
+  "name": "image-generator-mcp-farizi",
+  "version": "1.0.0",
+  "description": "Local MCP server for image generation and editing using Google Vertex AI Nano Banana",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "image-generator-mcp-farizi": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node build/index.js",
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "vertex-ai",
+    "nano-banana",
+    "image-generator",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  }
+}
